@@ -86,7 +86,7 @@ function pad0(value) {
 
 var startButton = document.getElementById("start");
 startButton.addEventListener("click", function () {
-  return stopwatch.start();
+  return stopWatch.start();
 });
 
 var stopButton = document.getElementById("stop");
@@ -94,4 +94,4 @@ stopButton.addEventListener("click", function () {
   return stopWatch.stop();
 });
 
-var stopwatch = new Stopwatch(document.querySelector(".stopwatch"));
+var stopWatch = new Stopwatch(document.querySelector(".stopwatch"));
