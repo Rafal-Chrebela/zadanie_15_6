@@ -94,4 +94,9 @@ stopButton.addEventListener("click", function () {
   return stopWatch.stop();
 });
 
+var resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", function () {
+  stopWatch.reset(), stopWatch.print();
+});
+
 var stopWatch = new Stopwatch(document.querySelector(".stopwatch"));
